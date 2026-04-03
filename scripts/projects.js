@@ -1,19 +1,20 @@
-const projects = [{
+const projects = [
+  {
+  name: "Stay-4-Now",
+  thumbnail: "images/thumbnails/stay4now.png",
+  description: "A modern booking platform inspired by Airbnb, designed to help users easily discover, explore, and reserve unique stays and experiences through a clean, intuitive interface.",
+  tools: ['HTML', 'CSS', 'JavaScript'],
+  status: 'In Progress',
+  link: 'https://jay-man-web.github.io/stay4now/'
+  },
+  {
   name: "The Comic Drop",
   thumbnail: "images/thumbnails/the-comic-drop.png",
-  description: "The Comic Drop – Personal Project </br> A simple, user-friendly website for comic news and discussions. Designed to be fast, clear, and easy to navigate, it showcases my front-end skills while creating a space for comic fans to explore and enjoy content.",
+  description: "A simple, user-friendly website for comic news and discussions. Designed to be fast, clear, and easy to navigate, it showcases my front-end skills while creating a space for comic fans to explore and enjoy content.",
   tools: ['HTML', 'CSS', 'JavaScript'],
   status: 'In Progress',
   link: 'projects/TheComicDrop.html'
-}, 
-{
-  name: "Site Sprint",
-  thumbnail: "images/thumbnails/the-comic-drop.png",
-  description: "The Comic Drop – Personal Project </br> A simple, user-friendly website for comic news and discussions. Designed to be fast, clear, and easy to navigate, it showcases my front-end skills while creating a space for comic fans to explore and enjoy content.",
-  tools: ['HTML', 'CSS', 'JavaScript'],
-  status: 'In Progress',
-  link: 'projects/TheComicDrop.html'
-}];
+  }];
 
 let projectsHTML = '';
 

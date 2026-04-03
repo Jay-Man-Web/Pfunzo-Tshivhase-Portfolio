@@ -117,6 +117,10 @@ section:not(:first-of-type), footer {
   text-decoration: none;
 }
 
+.project-containers {
+  padding-right: 100px;
+}
+
 .project-container {
   display: flex;
   align-items: flex-start;
@@ -125,7 +129,7 @@ section:not(:first-of-type), footer {
   border-radius: 10px;
   border: 2.4px solid transparent;
   transition: border-color 0.15s ease, background-colour;
-  width: 100%;
+  width: 95%;
   margin-bottom: 50px;
 }
 
