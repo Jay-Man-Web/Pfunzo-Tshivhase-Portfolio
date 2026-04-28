@@ -6,15 +6,8 @@ const projects = [
   tools: ['HTML', 'CSS', 'JavaScript'],
   status: 'In Progress',
   link: 'https://jay-man-web.github.io/stay4now/'
-  },
-  {
-  name: "The Comic Drop",
-  thumbnail: "images/thumbnails/the-comic-drop.png",
-  description: "A simple, user-friendly website for comic news and discussions. Designed to be fast, clear, and easy to navigate, it showcases my front-end skills while creating a space for comic fans to explore and enjoy content.",
-  tools: ['HTML', 'CSS', 'JavaScript'],
-  status: 'In Progress',
-  link: 'projects/TheComicDrop.html'
-  }];
+  }
+];
 
 let projectsHTML = '';
 

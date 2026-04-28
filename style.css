@@ -168,10 +168,15 @@ section:not(:first-of-type), footer {
   font-size: 15px;
   border-radius: 30px;
   background: linear-gradient(90deg, rgb(59, 33, 119), #12294f);
-  padding: 2px 10px;
-  margin-bottom: 40px;
+  padding: 5px 10px;
+  white-space: nowrap;
 }
 
+.tools-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap:5px;
+}
 .status {
   background: linear-gradient(90deg, #c646b3, #850d73);
 }
